@@ -1,4 +1,4 @@
-name: simulapp
+name: flutter_application_1
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -11,7 +11,14 @@ dependencies:
     sdk: flutter
   firebase_core: ^3.6.0
   firebase_auth: ^5.3.1
-  
+  cloud_firestore: ^5.3.1 
+  url_launcher: ^6.0.20
+  flutter_event_calendar: ^1.0.0
+  google_maps_flutter: ^2.2.0  
+  location: ^5.0.0  
+  http: ^0.13.3
+  geocoding: ^2.0.2
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +27,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/CAE.jpg
+    - assets/images/CPE.jpg
+    - assets/images/ECCE.jpg
+    - assets/images/ECPE.jpg
+    - assets/images/IBT.jpg
+    - assets/images/ITP.jpg
+    - assets/data.json
